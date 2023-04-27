@@ -1,0 +1,34 @@
+<div class="d-flex flex-column align-items-center w-100">
+
+  <div class="w-100 d-flex justify-content-center">
+    <h1>Tic Tac Toe</h1>
+  </div>
+
+  <div class="d-flex justify-content-around w-100">
+
+    <div class="w-100">
+
+    </div>
+
+    <div class="w-100 d-flex justify-content-center">
+      <app-grid (selectionCase)="selectionCase($event)"></app-grid>
+    </div>
+
+    <div class="w-100">
+      <div class="d-inline-flex flex-column">
+
+        <app-game-state></app-game-state>
+
+        <div class="m-2">
+          <button (click)="nouveauJeux()" class="btn btn-primary">Nouveau Jeux</button>
+          <app-theme-manager></app-theme-manager>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</div>

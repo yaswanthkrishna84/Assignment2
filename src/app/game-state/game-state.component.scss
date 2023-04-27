@@ -1,0 +1,16 @@
+$couleur-formes2: var(--secondary-color);
+
+.joueurSelectionne {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.joueurGagnant {
+  border-color: $couleur-formes2;
+  color: $couleur-formes2;
+}
+
+.joueur {
+  border: 1px;
+  border-color: black;
+}
